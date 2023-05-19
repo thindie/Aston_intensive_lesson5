@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aston_Intensive_lesson5</string>
+    <string name="textview">TextView</string>
+    <string name="hint_link">input some..</string>
+    <string name="save">save</string>
+    <string name="contact_name">"NAME:      "</string>
+    <string name="contact_surname">"SURNAME:      "</string>
+    <string name="contact_phone">"PHONE:      "</string>
+</resources>

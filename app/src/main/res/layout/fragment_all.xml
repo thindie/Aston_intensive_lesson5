@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactsListFragment"
+    android:name="com.example.thindie.aston_intensive_lesson5.ContactsListFragment">
+      <include android:id="@+id/first_person"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          layout="@layout/item_contact"/>
+      <include android:id="@+id/second_person"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          layout="@layout/item_contact"/>
+      <include android:id="@+id/third_person"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          layout="@layout/item_contact"/>
+</LinearLayout>
